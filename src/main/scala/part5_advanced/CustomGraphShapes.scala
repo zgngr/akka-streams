@@ -8,6 +8,8 @@ import akka.stream._
 import scala.collection.immutable
 import scala.concurrent.duration._
 
+import scala.language.postfixOps
+
 object CustomGraphShapes extends App {
 
   implicit val system = ActorSystem("CustomGraphShapes")

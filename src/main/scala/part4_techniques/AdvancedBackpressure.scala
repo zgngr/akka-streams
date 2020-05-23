@@ -5,6 +5,7 @@ import java.util.Date
 import akka.actor.ActorSystem
 import akka.stream.{ActorMaterializer, OverflowStrategy}
 import akka.stream.scaladsl.{Flow, Sink, Source}
+import scala.language.postfixOps
 
 object AdvancedBackpressure extends App {
 

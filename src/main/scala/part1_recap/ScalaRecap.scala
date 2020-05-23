@@ -2,6 +2,7 @@ package part1_recap
 
 import scala.concurrent.Future
 import scala.util.{Failure, Success}
+import scala.language.postfixOps
 
 object ScalaRecap extends App {
 

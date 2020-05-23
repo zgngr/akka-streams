@@ -11,6 +11,8 @@ import scala.concurrent.Await
 import scala.concurrent.duration._
 import scala.util.{Failure, Success}
 
+import scala.language.postfixOps
+
 class TestingStreamsSpec extends TestKit(ActorSystem("TestingAkkaStreams"))
   with WordSpecLike
   with BeforeAndAfterAll {

@@ -3,6 +3,7 @@ package part2_primer
 import akka.actor.ActorSystem
 import akka.stream.{ActorMaterializer, OverflowStrategy}
 import akka.stream.scaladsl.{Flow, Sink, Source}
+import scala.language.postfixOps
 
 object BackpressureBasics extends App {
 
